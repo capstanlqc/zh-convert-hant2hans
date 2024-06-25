@@ -17,7 +17,7 @@ if len(sys.argv) < 3:
 omtprj_dpath = sys.argv[2]
 
 cc = OpenCC()
-cc.set_conversion('hk2s')
+cc.set_conversion('t2s')
 
 input_dpath = os.path.join(omtprj_dpath, "t2s")
 output_dpath = os.path.join(omtprj_dpath, "hans2")

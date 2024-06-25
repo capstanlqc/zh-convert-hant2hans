@@ -34,6 +34,8 @@ You have two options to do the conversion:
 
 ### First approach: LibreOffice Calc
 
+This approach seems to provide better results (based on verifier's feedback).
+
 1. In LibreOffice Calc, go to **Tools** > **Options** > **Languages and Locales** >  **General** and tick option "Asian (or perhaps called "Asian language support").
 2. Open each TSV file in LibreOffice Calc, select the column in Chinese and go to **Tools** > **Language** > **Chinese Conversion...**,  tick "Traditional Chinese to simplified Chinese" and press OK. 
 3. Then Save (as Excel if you like).
@@ -48,4 +50,10 @@ You might want to define what is the original version (generic traditional or, s
 
 ## Third pard: convert TSV/Excel to TMX
 
-Use TMX Editor to convert each spreadsheet in simplified script to TMX.
+Use TMX Editor to convert each spreadsheet in simplified script to TMX:
+
+1. Go to **File** > **Convert Excel file to TMX**
+2. Browse to select the Excel file
+3. Press **Set Languages** and select the language pair, e.g. `English` > `Chinese (Han [Simplified variant], Macao)` (if the original target language variant in traditional script was `zh-MO`).
+4. Press **Convert Excel File to TMX**
+5. Optionally do any maintenance on the TM that you require (e.g. dedupe entries, etc.)
