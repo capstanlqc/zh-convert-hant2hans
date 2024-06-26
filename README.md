@@ -30,11 +30,9 @@ Repeat the two steps for each batch/package you want to convert.
 
 ## Second part: script conversion
 
-You have two options to do the conversion:
+You have two options to do the conversion. The first approach (using LibreOffice Calc) seems to provide better results (based on verifier's feedback).
 
 ### First approach: LibreOffice Calc
-
-This approach seems to provide better results (based on verifier's feedback).
 
 1. In LibreOffice Calc, go to **Tools** > **Options** > **Languages and Locales** >  **General** and tick option "Asian (or perhaps called "Asian language support").
 2. Open each TSV file in LibreOffice Calc, select the column in Chinese and go to **Tools** > **Language** > **Chinese Conversion...**,  tick "Traditional Chinese to simplified Chinese" and press OK. 
